@@ -17,6 +17,7 @@ function setup() {
     for(var y = 0; y < height; y += space){
       var p = createVector(x, y);
       points.push(p);
+      print(points);
     }
   }
 
